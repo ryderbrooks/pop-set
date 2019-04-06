@@ -1,6 +1,5 @@
 import {assert}    from 'chai';
-import {PopSet}    from '..';
-import { IPopSet } from '../meta/interfaces';
+import {PopSet, IPopSet}    from '..';
 
 
 describe('#shift', ()=>{
