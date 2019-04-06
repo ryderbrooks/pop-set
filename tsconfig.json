@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    //    "noImplicitUseStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "strict": true,
+
+    "moduleResolution": "node",
+    "inlineSources": true,
+    "target": "ESNext",
+    "sourceMap": true,
+    "diagnostics": true,
+    "extendedDiagnostics": true,
+
+    "forceConsistentCasingInFileNames": true,
+
+    "declarationMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "lib": ["esnext"]
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "docs"
+  ],
+  "typedocOptions": {
+    "mode": "modules",
+    "out": "docs",
+    "exclude": ["./src/test/**"]
+  }
+}

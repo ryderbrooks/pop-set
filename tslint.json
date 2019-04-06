@@ -1,0 +1,150 @@
+{
+  "rules": {
+    "max-line-length": {
+      "options": [
+        120
+      ]
+    },
+    "no-unnecessary-type-assertion": true,
+    "typedef": [
+      true,
+      "call-signature",
+      "arrow-call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+//      "variable-declaration",
+      "member-variable-declaration"
+//      "object-destructuring",
+//      "array-destructuring"
+    ],
+    "cyclomatic-complexity": [
+      true,
+      20
+    ],
+    "strict-boolean-expressions": [
+      true,
+      "allow-null-union",
+      "allow-undefined-union",
+      "allow-string",
+      "allow-boolean-or-undefined",
+      "allow-number"
+    ],
+    "interface-name": [
+      true,
+      "always-prefix"
+    ],
+    "no-parameter-properties": true,
+    "increment-decrement": true,
+    "triple-equals": [
+      true,
+      "allow-undefined-check",
+      "allow-null-check"
+    ],
+    "unnecessary-constructor": true,
+    "one-variable-per-declaration": [
+      true,
+      "ignore-for-loop"
+    ],
+    "no-unsafe-finally": true,
+    "no-null-keyword": false,
+    "no-misused-new": true,
+    "function-constructor": true,
+    "no-for-in-array": true,
+    "no-conditional-assignment": false,
+    "unnecessary-bind": true,
+    //    "no-inferrable-types": [true, "ignore-params", "ignore-properties"],
+    "ban-comma-operator": true,
+    "unified-signatures": true,
+    "no-duplicate-super": true,
+    "no-duplicate-switch-case": true,
+    "no-duplicate-imports": true,
+    "no-duplicate-variable": true,
+    "no-invalid-this": true,
+    //    "no-non-null-assertion": true,
+
+    "no-object-literal-type-assertion": true,
+    "strict-type-predicates": true,
+    "typeof-compare": true,
+    "use-default-type-parameter": true,
+    "use-isnan": true,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "allow-pascal-case",
+      "check-format",
+      "allow-leading-underscore"
+    ],
+    "prefer-for-of": true,
+    "type-literal-delimiter": true,
+    "prefer-template": [
+      true,
+      "allow-single-concat"
+    ],
+    "no-unnecessary-qualifier": true,
+    "no-redundant-jsdoc": true,
+    "prefer-conditional-expression": [
+      true,
+      "check-else-if"
+    ],
+    "no-return-await": true,
+    "no-unused-expression": true,
+    "await-promise": [
+      true,
+      "Deferred"
+    ],
+    "no-floating-promises": [
+      true,
+      "Deferred"
+    ],
+    "callable-types": true,
+    "deprecation": true,
+    "no-mergeable-namespace": true,
+    "prefer-const": true,
+    "prefer-readonly": true,
+    "interface-over-type-literal": false,
+    "jsdoc-format": true,
+    "no-unnecessary-callback-wrapper": true,
+    "promise-function-async": [
+      true,
+      "check-arrow-function",
+      "check-function-declaration",
+      "check-method-declaration",
+      "check-function-expression"
+    ],
+    "prefer-function-over-method": [
+      true,
+      "allow-protected",
+      "allow-public"
+    ],
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
+    "number-literal-format": true,
+    //    "prefer-method-signature": true,
+    "prefer-switch": [
+      true,
+      {
+        "min-cases": 2
+      }
+    ],
+    "return-undefined": true,
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "no-unsafe-any": true,
+    "no-use-before-declare": true,
+    "radix": true,
+    "arrow-return-shorthand": true,
+    "no-string-throw": true,
+    "new-parens": true,
+    "no-arg": true,
+    "no-consecutive-blank-lines": false,
+    "no-dupe-class-members": false,
+    "no-unbound-method": [true, "ignore-static"],
+    "restrict-plus-operands": true,
+    "max-classes-per-file": [true, 1]
+  }
+}
