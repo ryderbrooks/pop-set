@@ -1,6 +1,6 @@
 {
   "name": "pop-set",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "es6 Set prototype extended to include: .pop & .shift methods",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,9 +24,14 @@
   "files": [
     "dist/index.js",
     "dist/index.d.ts",
-    "dist/lib/*.js"
+    "dist/lib/*.js",
+    "dist/**/*.d.ts"
   ],
-  "keywords": ["Set", "pop", "shift"],
+  "keywords": [
+    "Set",
+    "pop",
+    "shift"
+  ],
   "author": "Ryder Brooks",
   "license": "ISC",
   "devDependencies": {
