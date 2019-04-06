@@ -1,6 +1,6 @@
 {
   "name": "pop-set",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "es6 Set prototype extended to include: .pop & .shift methods",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
