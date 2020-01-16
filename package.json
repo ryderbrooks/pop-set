@@ -48,7 +48,7 @@
     "nyc": "^13.3.0",
     "shx": "^0.3.2",
     "tslint": "^5.14.0",
-    "typedoc": "^0.14.2",
+    "typedoc": "^0.16.5",
     "typescript": "^3.3.4000",
     "typescript-eslint-parser": "^22.0.0",
     "typescript-estree": "^18.1.0"
