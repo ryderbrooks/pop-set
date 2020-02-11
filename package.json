@@ -35,7 +35,7 @@
   "author": "Ryder Brooks",
   "license": "ISC",
   "devDependencies": {
-    "@types/chai": "^4.1.7",
+    "@types/chai": "^4.2.9",
     "@types/mocha": "^5.2.6",
     "@types/node": "^11.13.0",
     "acorn": "^6.1.1",
